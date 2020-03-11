@@ -24,7 +24,7 @@ makeCacheMatrix <- function(x = matrix()) {
 ## Write a short comment describing this function
 
 cacheSolve <- function(x, ...) {
-  cachemean <- function(x, ...) {
+  cacheinverse <- function(x, ...) {
     i <- x$getinverse()
     if(!is.null(i)) {
       message("getting cached data")
